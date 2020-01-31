@@ -1,0 +1,76 @@
+body {
+  font-family: Monospace;
+  font-weight: 800;
+
+}
+
+h1 {
+  line-height: 0.6em;
+  font-weight: 800;
+  font-size: 16px;
+  text-align: center;
+}
+
+.content {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 800px;
+}
+
+.header {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.title {
+  margin-bottom: 30px;
+
+}
+
+.server {
+  display: inline-block;
+  line-height: 0.1em;
+}
+
+.dob {
+  line-height: 0.1em;
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  right: 0;
+}
+
+.sale {
+  text-transform: uppercase;
+}
+
+.sale h1 {
+  margin-bottom: 40px;
+}
+
+.amount {
+  line-height: 2.5em;
+  text-align: right;
+  margin-bottom: 60px;
+}
+
+.signature {
+  text-align: center;
+}
+
+.signature *{
+  margin: 30px 0;
+}
+
+.footnotes {
+  text-align: center;
+}
+
+.footnotes * {
+  margin-bottom: 50px;
+}
