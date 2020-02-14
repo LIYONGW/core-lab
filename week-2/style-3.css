@@ -5,7 +5,14 @@ body {
 }
 
 h1 {
-  line-height: 0.6em;
+  line-height: 0.05em;
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  line-height: 0.9em;
   font-weight: 800;
   font-size: 16px;
   text-align: center;
@@ -24,7 +31,7 @@ h1 {
 
 .header {
   margin-bottom: 30px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .title {
@@ -33,24 +40,39 @@ h1 {
 }
 
 .server {
-  display: inline-block;
-  line-height: 0.1em;
+  text-align: center;
 }
 
-.dob {
-  line-height: 0.1em;
+.items {
+  display: inline-block;
+}
+
+.price {
   display: inline-block;
   position: absolute;
   text-align: right;
   right: 0;
 }
 
+.total {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.total-price {
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  right: 0;
+}
 .sale {
   text-transform: uppercase;
 }
 
 .sale h1 {
   margin-bottom: 40px;
+  font-size: 14px;
+  line-height:1em;
 }
 
 .amount {

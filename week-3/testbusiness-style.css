@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+    margin: 0;
+  }
+  
+  pre {
+    color: white;
+    display: block;
+    font: bold 20px Helvetica;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  #leon01 span {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 2);
+    color: transparent;
+  }
+  
+  section {
+    padding: 10px 100px;
+    text-align: center;
+  }
+  
+  .name {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+  }
+  
+  #leon02 {
+    font-size: 40px;
+    position: absolute;
+    top: -20%;
+    left: 30%
+  }
+  
+  #leon03 {
+    font-size: 15px;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    filter: blur(0.1em);
+  }
+  
+  @keyframes image_blur {
+      0% { -webkit-filter: blur(0px);}
+      50% { -webkit-filter: blur(5px);}
+      100% { -webkit-filter: blur(0px);}
+  }
+  
+  
+  #leon03 :hover {
+      animation: image_blur 2s; 
+  }
+  
+  #leon04 {
+    position: absolute;
+  }
+  
+  #leon05 {
+    position: absolute;
+    font-size: 50px;
+    right: 10%;
+    top: 80%;
+    filter: blur(0.2rem);
+  }
+  
+  #leon06 {
+    letter-spacing: 2em;
+    filter: blur(0.4rem);
+  }
+  
+  #leon07 {
+    filter: blur(0.4rem);
+  }
+  
+  #leon08 {
+    letter-spacing: 2em;
+    filter: blur(0.4rem);
+  }
+  
+  #leon09 {
+    letter-spacing: 2em;
+    filter: blur(0.4rem);
+  }
+  
+  #leon10 {
+    letter-spacing: 2em;
+    filter: blur(0.4rem);
+  }
+  
+  span {
+      color: transparent;
+      animation: blur 10s ease-out infinite;
+      -webkit-animation: blur 10s ease-out infinite;
+  }
+  
+  span:nth-child(1) {
+      animation-delay: 0.1s;
+      -webkit-animation-delay: 0.1s;
+  }
+  span:nth-child(2) {
+      animation-delay: 0.2s;
+      -webkit-animation-delay: 0.2s;
+  }
+  span:nth-child(3) {
+      animation-delay: 0.3s;
+      -webkit-animation-delay: 0.3s;
+  }
+  span:nth-child(4) {
+      animation-delay: 1.4s;
+      -webkit-animation-delay: 1.4s;
+  }
+  span:nth-child(5) {
+      animation-delay: 0.5s;
+      -webkit-animation-delay: 0.5s;
+  }
+  span:nth-child(6) {
+      animation-delay: 0.9s;
+      -webkit-animation-delay: 0.9s;
+  }
+  span:nth-child(7) {
+      animation-delay: 0.7s;
+      -webkit-animation-delay: 0.7s;
+  }
+  
+  @keyframes blur {
+      0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+      5%		{text-shadow:  0 0 90px #fff;}
+      15%		{opacity: 1;}
+      20%		{text-shadow:  0 0 0px #fff;}
+      80%		{text-shadow:  0 0 0px #fff;}
+      85%		{opacity: 1;}
+      95%		{text-shadow:  0 0 90px #fff;}
+      100%	{text-shadow:  0 0 100px #fff; opacity:0;}
+  }
+  
+  @-webkit-keyframes blur {
+      0%		{text-shadow:  0 0 100px #fff; opacity:0;}
+      5%		{text-shadow:  0 0 90px #fff;}
+      15%		{opacity: 1;}
+      20%		{text-shadow:  0 0 0px #fff;}
+      80%		{text-shadow:  0 0 0px #fff;}
+      85%		{opacity: 1;}
+      95%		{text-shadow:  0 0 90px #fff;}
+      100%	{text-shadow:  0 0 100px #fff; opacity:0;}
+  }
+  
+  
