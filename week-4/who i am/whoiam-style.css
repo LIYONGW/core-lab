@@ -1,0 +1,48 @@
+/* p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.main {
+    max-width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.self-portrait {
+    width: 200px;
+}
+
+.title {
+    position: absolute;
+}
+
+.self-portrait .title {
+    bottom: 4%;
+    right: 5%;
+}
+
+svg{
+    fill: pink;
+} */
+
+.preview {
+    position: absolute;
+    z-index: 0;
+    top: 50.5%;
+    left: 49.4%;
+    transform: translate(-50%, -50%);
+    width: 630px;
+    display: none;
+}
+
+#canvas {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
